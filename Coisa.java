@@ -4,14 +4,14 @@ public class Coisa {
 
 	public static void main(String[] args) {
 		
-		descanso();
+				   descanso();
 			       System.out.println("-----");
 			       registroOnline();
 			       System.out.println("-----");
 			       disciplina();
 			       System.out.println("-----");
 			       atividadesComplementares();
-			   }
+	}
 			   public static void descanso() {
 			       
 				   Descanso descanso = new Descanso();
@@ -79,12 +79,5 @@ public class Coisa {
 			       }
 			       System.out.println(minhasAtividades.contaCreditos());
 			 
-			   }
-
-		
-
-		}
-
-	}
+	   }
 }
-
