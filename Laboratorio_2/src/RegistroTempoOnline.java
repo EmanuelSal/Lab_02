@@ -28,5 +28,6 @@ public class RegistroTempoOnline {
 	}
 	public String toString() {
 		return disciplina + " " + tempoAtual + "/" + tempoOnlineEsperado;
+		
 	}
 }
